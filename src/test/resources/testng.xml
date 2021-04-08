@@ -12,7 +12,7 @@
 <!--    <test name="User Tests">-->
 <!--        <groups>-->
 <!--            <run>-->
-<!--                <include name="Smoke"/>-->
+<!--                <include name="smoke"/>-->
 <!--            </run>-->
 <!--        </groups>-->
 <!--        <classes>-->
