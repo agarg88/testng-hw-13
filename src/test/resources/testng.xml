@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Homework suite" time-out="5000" verbose="1">
+    <parameter name="username" value="admin"/>
+    <parameter name="password" value="suiteLevelPass1234"/>
+    <test name="Parameters Tests">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="testLevelPass1234"/>
+        <classes>
+            <class name="com.ring.aqa.LoginUserWithParameters"/>
+        </classes>
+    </test>
+<!--    <test name="User Tests">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Smoke"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.ring.aqa.UserTestWithGroups">-->
+<!--                <methods>-->
+<!--                    <exclude name="validateUserDataTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
